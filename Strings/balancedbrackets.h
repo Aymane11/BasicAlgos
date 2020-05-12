@@ -1,7 +1,13 @@
 #include <bits/stdc++.h>
 using namespace std;
-//this function recieves an string as input, checks if it's brackets are balanced or not
-//return values : "YES" if balanced , "NO" otherwise
+/*
+    Summary:
+        Checking if brackets in a string are balanced or not
+    Arguments:
+        [string] -- [initial string]
+    Returns:
+        [string] -- ["YES" or "NO"] //you can change it to booleans
+*/
 string isBalanced(string s) {
     //if string's length is odd then brackets arent balanced
     if(s.length()%2) return "NO";
