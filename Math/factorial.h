@@ -8,10 +8,10 @@ using namespace std;
     Returns:
         [double] -- [n!]
 */
-double factorial(int n){
+double Factorial(int n){
     if (n<0){
         cout << "Invalid Input, ensure that n >= 0";
         return;
     }
-     return ((n<=1)? 1:n*factorial(n-1));
+     return ((n<=1)? 1:n*Factorial(n-1));
 }

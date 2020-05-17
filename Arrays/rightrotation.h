@@ -9,7 +9,7 @@ using namespace std;
     Returns:
         [vector<int>] -- [right rotated array]
 */
-vector<int> RightRotation(vector<int> arr,int n){
+vector<int> rightrotation(vector<int> arr,int n){
     if(!n || !(n%arr.size())) return arr;
     vector<int> res;
     int size=arr.size();

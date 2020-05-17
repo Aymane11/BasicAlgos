@@ -8,7 +8,7 @@ using namespace std;
     Returns:
         [string] -- ["YES" or "NO"] //you can change it to booleans
 */
-string isBalanced(string s) {
+string isbalanced(string s) {
     //if string's length is odd then brackets arent balanced
     if(s.length()%2) return "NO";
     stack<char> op;

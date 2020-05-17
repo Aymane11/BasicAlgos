@@ -8,7 +8,7 @@ using namespace std;
     Returns:
         [vector<int>] -- [sorted array]
 */
-vector<int> selectionsort(vector<int> arr){
+vector<int> selectionSort(vector<int> arr){
     for (int i = 0; i < arr.size()-1; ++i){
         int index_min = i;
         for (int j = i; j < arr.size(); j++){
