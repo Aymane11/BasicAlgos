@@ -3,7 +3,7 @@ using namespace std;
 /*
     Summary:
         Solving quadratic equations using discriminant
-        ax²+bx+c=0
+        ax^2+bx+c=0
         delta=b²-4ac
         if delta=0: one real root : -b/2a
         if delta>0: two distinct real roots : (-b-sqrt(delta))/2a and (-b+sqrt(delta))/2a

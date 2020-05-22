@@ -1,6 +1,7 @@
 *.exe
 *.cpp
 *.txt
+main.py
 .vscode/*
 !.vscode/settings.json
 !.vscode/tasks.json
